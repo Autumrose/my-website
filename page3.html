@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> Submit Favorite </title>
+  <link rel="stylesheet" href="styles.css">
+ </head>
+ <header>
+  <h1> Your Favorite Shows </h1>
+  <nav role="navigation" aria-label="main menu" class="navbar">
+   <a id="navelements" href="page1.html">Shows</a>
+   <a id="navelements" href="page2.html">Galleria</a>
+   <a id="navelements" href="page3.html">Submit your favorite</a>
+  </nav>
+ </header>
+ <body>
+  <form action="text.php" method="POST">
+   <div class="formStyle">
+    <label for="name"> Name </label>
+    <br>
+    <input type ="text" id="name" name="name" placeholder="Name">
+   </div>
+   <div class="formStyle">
+    <label for="age">Age</label>
+    <br>
+    <input type="number" id="age" name="age" placeholder="Age">
+   </div>
+   <div class="formStyle">
+    <label for="dob">Date of Birth</label>
+    <br>
+    <input type="date" id="dob" name="dob">  
+   </div>
+   <div class="formStyle">
+    <label for="tvtime">How many hours a week do you spend watching tv on average?</input>
+    <br>
+    <input type="radio" name="tvtime" id="4orless">
+    <label class="radioBut" for="4orless"> 1-4 hours </label>
+    <br>
+    <input type="radio" name="tvtime" id="4to8">
+    <label class="radioBut" for="4to8">4-8 hours</label>
+    <br>
+    <input type="radio" id="8ormore" name="tvtime">
+    <label class="radioBut" for="8ormore">8 or more hours</label>
+   </div>
+   <div class="formStyle">
+    <label for="firstfav">Favorite show out of the listed options</label>
+    <br>
+    <select id="firstfav" name="firstfav">
+     <option value="" disabled selected>Select</option>
+     <option> The Mick</option>
+     <option> Game of Thrones</option>
+     <option> Haunting of Hill House</option>
+     <option>Friends</option>
+     <option>House</option>
+    </select>
+   </div>
+   <div class="formStyle">
+    <label for="secfav">2nd favorite show out of the listed options</label>
+    <br>
+    <select id="secfav" name="secfav">
+     <option value="" disabled selected>Select</option>
+     <option> The Mick</option>
+     <option> Game of Thrones</option>
+     <option> Haunting of Hill House</option>
+     <option>Friends</option>
+     <option>House</option>
+    </select>
+   </div>
+   <div class="formStyle">
+    <label for="thirdfav">3rd favorite show out of the listed options</label>
+    <br>
+    <select id="thirdfav" name="thirdfav">
+     <option value="" disabled selected>Select</option>
+     <option> The Mick</option>
+     <option> Game of Thrones</option>
+     <option> Haunting of Hill House</option>
+     <option>Friends</option>
+     <option>House</option>
+    </select>
+   </div>
+   <div class="formStyle">
+    <label>Favorite show of all time?</label>
+    <br>
+    <input type="text" name="favShow" Placeholder="Any Show">
+   </div>
+   <div class="formStyle">
+    <label> Explain why this show is your favorite of all time: </label>
+    <br>
+    <textarea placeholder="i.e cast, writing, plot/storyline, etc"></textarea>
+    </div>
+    <input type="submit" value="Submit">
+   </form>
+ </body>
+ <footer class="footer">
+  <pre>
+   <p>    Phone Number: 801-529-8094		                                 Address: 496 W 1st Avenue Midvale, Utah 84096                                      Used the <code>&lt;pre&gt;</code> and<code> &lt;code&gt;</code> tags</p>
+  </pre>
+ </footer>
+</html>

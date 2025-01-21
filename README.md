@@ -3,7 +3,7 @@
 This is a basic website created when I first learned HTML and CSS. The project demonstrates fundamental web development concepts, including simple layouts, styling, and basic interactivity. While it may lack advanced features, it serves as a great starting point for understanding how HTML and CSS work together to build a webpage.
 
 ## Features
-### * HTML Structure:
+* ### HTML Structure:
      * Headers, paragraphs, and lists for content organization.
      * Proper use of semantic tags like <header>, <footer>, <nav>, and <main>.
 ### * CSS Styling:

@@ -6,7 +6,7 @@ This is a basic website created when I first learned HTML and CSS. The project d
 * ### HTML Structure:
      * Headers, paragraphs, and lists for content organization.
      * Proper use of semantic tags like <header>, <footer>, <nav>, and <main>.
-### * CSS Styling:
+* ### CSS Styling:
      * Basic styling for text, colors, and layout.
      * Use of classes and IDs to apply specific styles.
      * A simple responsive layout.

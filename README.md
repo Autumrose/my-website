@@ -12,7 +12,7 @@ This is a basic website created when I first learned HTML and CSS. The project d
      * A simple responsive layout.
 ## How to Use
 ### 1. Download the Files
-2. ### Open the Website:
-* Locate the index.html file in the project folder.
-* Double-click the file to open it in your default web browser.
+### 2. Open the Website:
+    * Locate the index.html file in the project folder.
+    * Double-click the file to open it in your default web browser.
 ### 3. Explore
